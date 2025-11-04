@@ -71,10 +71,10 @@ def eval_vision_H(distmat, q_pids, g_pids,queryset,gallset,picure,trial, max_ran
                 else: image = image.resize((W, H))
                 axs[col].imshow(image)
                 axs[col].axis('off')
-        if not os.path.isdir('/home/gml/HXC/.eval/'+str(begin)+'_'+str(end)):
-            os.makedirs('/home/gml/HXC/.eval/'+str(begin)+'_'+str(end))
+        if not os.path.isdir('/home/gml/IRL/.eval/'+str(begin)+'_'+str(end)):
+            os.makedirs('/home/gml/IRL/.eval/'+str(begin)+'_'+str(end))
 
-        output_dir = '/home/gml/HXC/.eval/'+str(begin)+'_'+str(end)+'/tmp'+str(trial)+'.png'
+        output_dir = '/home/gml/IRL/.eval/'+str(begin)+'_'+str(end)+'/tmp'+str(trial)+'.png'
         fig.savefig(output_dir)
         print("saved at: " + output_dir)
         if end==3803:

@@ -12,7 +12,6 @@ from eval_metrics import eval_sysu, eval_regdb, eval_llcm
 from model import embed_net
 from utils import *
 
-# from evalution_HXC import eval_vision_HXC
 
 parser = argparse.ArgumentParser(description='PyTorch Cross-Modality Training')
 parser.add_argument('--dataset', default='sysu',
