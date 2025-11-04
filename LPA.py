@@ -1,7 +1,5 @@
 import torch
 import torch.nn as nn
-#论文：SwinPA-Net: Swin Transformer-Based Multiscale Feature Pyramid Aggregation Network for Medical Image Segmentation
-#论文地址：https://ieeexplore.ieee.org/document/9895210
 
 class ChannelAttention(nn.Module):
     def __init__(self, in_planes):

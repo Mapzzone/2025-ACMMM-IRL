@@ -1,10 +1,6 @@
 import torch
 import torch.nn as nn
 
-'''
-Simple Baselines for Image Restoration
-https://arxiv.org/abs/2204.04676
-'''
 
 class LayerNormFunction(torch.autograd.Function):
 
