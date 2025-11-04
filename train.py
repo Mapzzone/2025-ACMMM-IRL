@@ -29,9 +29,9 @@ parser.add_argument('--resume', '-r', default='', type=str, help='resume from ch
 parser.add_argument('--test-only', action='store_true', help='test only')
 parser.add_argument('--save_epoch', default=20, type=int,metavar='s', help='save model every 10 epochs')
 parser.add_argument('--optim', default='SGD', type=str, help='SGD,ADM')
-parser.add_argument('--model_path', default='result/MSCMNet/save_model5_d_0.9/', type=str, help='model save path')
-parser.add_argument('--log_path', default='result/MSCMNet/log5_d_0.9/', type=str, help='log save path')
-parser.add_argument('--vis_log_path', default='result/MSCMNet/log/vis_log5_d_0.9/', type=str, help='log save path')
+parser.add_argument('--model_path', default='result/', type=str, help='model save path')
+parser.add_argument('--log_path', default='result/', type=str, help='log save path')
+parser.add_argument('--vis_log_path', default='result/', type=str, help='log save path')
 parser.add_argument('--loss_tri', default='QCT', type=str, help='')
 parser.add_argument('--lr_scheduler', default='step',type=str, help='step or consine')
 parser.add_argument('--backbone', default='AGW',type=str, help='AGW')
@@ -56,10 +56,7 @@ set_seed(args.seed)
 
 dataset = args.dataset
 if dataset == 'sysu':
-
-    # data_path = '/home/wdw/code/MSCNet/data/SYSU-MM01/'
-    data_path = '/home/wdw/Data/SYSU/SYSU-MM01/'   # 40902
-    # data_path = '/home/cvlab/Desktop/wdw/data/SYSU-MM01/'   # 40901
+    data_path = './dataset/RegDB/'
     log_path = args.log_path + 'sysu_log/'
     test_mode = [1, 2]  # thermal to visible
 elif dataset == 'regdb':
