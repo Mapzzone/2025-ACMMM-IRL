@@ -43,7 +43,7 @@ def displt(query_feature,query_label,gallery_feature,gallery_label):
     ax.hist(intra.detach().cpu().numpy(), b, histtype="stepfilled", alpha=0.6, color = '#D0C2E8', density=True, label='Intra-class')
     ax.hist(inter.detach().cpu().numpy(), b, histtype="stepfilled", alpha=0.6, color = '#ABC7ED', density=True, label='Inter-class')
     
-    ax.set_xlabel('b) MSCMNet')
+    ax.set_xlabel('b) IRL')
     ax.legend()
     
     fig.savefig('images/dis/dis1.svg',dpi=1000,format='svg')

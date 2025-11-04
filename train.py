@@ -78,7 +78,7 @@ if not os.path.isdir(args.vis_log_path):
     os.makedirs(args.vis_log_path)
 
 suffix = dataset
-suffix = suffix + '_mscm_p{}_n{}_lr_{}_seed_{}'.format(
+suffix = suffix + '_IRL_p{}_n{}_lr_{}_seed_{}'.format(
     args.num_pos, args.batch_size, args.lr, args.seed)
 
 if not args.optim == 'SGD':

@@ -23,14 +23,14 @@ parser.add_argument('--arch', default='resnet50', type=str,
 parser.add_argument('--test-only', action='store_true', help='test only')
 parser.add_argument('--save_epoch', default=20, type=int,
                     metavar='s', help='save model every 10 epochs')
-parser.add_argument('--resume', '-r', default='sysu_mscm_p4_n6_lr_0.1_seed_0_best.t', type=str,
+parser.add_argument('--resume', '-r', default='sysu_IRL_p4_n6_lr_0.1_seed_0_best.t', type=str,
                     help='resume from checkpoint')
-parser.add_argument('--model_path', default='result/MSCMNet/save_model/',
+parser.add_argument('--model_path', default='result/IRL/save_model/',
                     type=str, help='model save path')
-parser.add_argument('--log_path', default='result/MSCMNet/log/',
+parser.add_argument('--log_path', default='result/IRL/log/',
                     type=str, help='log save path')
 parser.add_argument(
-    '--vis_log_path', default='result/MSCMNet/log/vis_log/', type=str, help='log save path')
+    '--vis_log_path', default='result/IRL/log/vis_log/', type=str, help='log save path')
 parser.add_argument('--workers', default=8, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
 parser.add_argument('--img_w', default=192, type=int,

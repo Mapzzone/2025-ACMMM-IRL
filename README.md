@@ -1,7 +1,7 @@
 ## Low-light Invariant Representation Learning for Visible-Infrared Person Re-identification
 
-Pytorch code for paper "<u>Low-light Invariant Representation Learning for Visible-Infrared
-Person Re-identification</u>(**acmm2025 oral**, [Paper](https://dl.acm.org/doi/10.1145/3746027.3755601))".
+Official implementation of paper "<u>Low-light Invariant Representation Learning for Visible-Infrared
+Person Re-identification</u>(**acmmm2025 oral**, [Paper](https://dl.acm.org/doi/10.1145/3746027.3755601))".
 
 ![](VisualizeH/Fig2.png)
 
@@ -31,7 +31,7 @@ Our experiments are conducted under the following environments:
 ### 3. Training
 
 
-**Train MSCMNet by**
+**Train IRL by**
 
 ```
 python train.py --dataset sysu --gpu 0
