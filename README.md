@@ -1,7 +1,7 @@
 ## Low-light Invariant Representation Learning for Visible-Infrared Person Re-identification
 
 Official implementation of paper "<u>Low-light Invariant Representation Learning for Visible-Infrared
-Person Re-identification</u>(**acmmm2025 oral**, [Paper](https://dl.acm.org/doi/10.1145/3746027.3755601))".
+Person Re-identification</u>"(**acmmm2025 oral**, [Paper](https://dl.acm.org/doi/10.1145/3746027.3755601)).
 
 ![](VisualizeH/Fig2.png)
 
@@ -81,7 +81,7 @@ We adopt the CNN-based AGW [3] as backbone respectively.
 
 | Datasets | Backbone | Rank@1 | Rank@10 |  mAP   |  mINP  |                            Model                             |                              -                               |
 | :------: | :------: | :----: | :-----: | :----: | :----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  #LLCM   |   AGW    | 67.27% | 91.44%  | 68.60% | 61.49% | [GoogleDrive](https://drive.google.com/file/d/1OAEmkAypXOnenN6N7y9EyO0V6Yj9olbW/view?usp=drive_link) | [Baidu Netdisk](https://pan.baidu.com/s/1frF-t4RESeFgT8j3BFnpzg?) |
+|  #LLCM   |   AGW    | 67.27% | 91.44%  | 68.60% | 61.49% | [GoogleDrive](https://drive.google.com/file/d/1F5YerFruoyPwxu0Xdyay9Ts0JJ0NzHnb/view?usp=sharing) | [Baidu Netdisk](https://pan.baidu.com/s/1frF-t4RESeFgT8j3BFnpzg?) |
 
 **\*The results may exhibit fluctuations due to random splitting, and further improvement can be achieved by fine-tuning the hyperparameters.**
 
