@@ -3,7 +3,7 @@
 Pytorch code for paper "<u>Low-light Invariant Representation Learning for Visible-Infrared
 Person Re-identification</u>(**acmm2025 oral**, [Paper](https://dl.acm.org/doi/10.1145/3746027.3755601))".
 
-![](F:\科研\投稿\Latex\Paper5\论文4.9\FIg2.png)
+![](VisualizeH/Fig2.png)
 
 ### 1. Requirements
 
