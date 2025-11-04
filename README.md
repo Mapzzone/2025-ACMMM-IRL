@@ -80,8 +80,8 @@ python test.py --dataset 'llcm' --resume 'model_path'  --gpu 0
 We adopt the CNN-based AGW [3] as backbone respectively.
 
 | Datasets | Backbone | Rank@1 | Rank@10 |  mAP   |  mINP  |                            Model                             |                              -                               |
-| :------: | :------: | :----: | :-----: | :----: | :----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  #LLCM   |   AGW    | 67.27% | 91.44%  | 68.60% | 61.49% | [GoogleDrive](https://drive.google.com/file/d/1F5YerFruoyPwxu0Xdyay9Ts0JJ0NzHnb/view?usp=sharing) | [Baidu Netdisk](https://pan.baidu.com/s/1frF-t4RESeFgT8j3BFnpzg?) |
+| :------: | :------: | :----: | :-----: | :-----: | :----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  #LLCM   |   AGW    | 58.39% | 84.75%  | 64.68% | 61.42% | [GoogleDrive](https://drive.google.com/file/d/1F5YerFruoyPwxu0Xdyay9Ts0JJ0NzHnb/view?usp=sharing) | [Baidu Netdisk](https://pan.baidu.com/s/1zUtmo0nzsL9-758MhU2QKQ?pwd=6j64) |
 
 **\*The results may exhibit fluctuations due to random splitting, and further improvement can be achieved by fine-tuning the hyperparameters.**
 
